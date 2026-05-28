@@ -1,0 +1,12 @@
+# Ignora todos os arquivos compilados do Python
+*.pyc
+
+# Ignora todas as pastas de cache do Python (incluindo as da sua pasta src/layout)
+__pycache__/
+
+# Ignora arquivos de cache específicos do ambiente de desenvolvimento (opcional)
+.pytest_cache/
+.poetry/
+venv/
+.venv/
+.env
