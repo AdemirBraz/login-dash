@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 def login_header():
     return html.H3(
         "Acessar Conta", 
-        className="text-center mb-4 fw-bold text-primary"
+        className="text-center mb-4 fw-bold text-light"
     )
 
 def email_input():
